@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "image-dehazing"
+version = "1.0.0"
+description = "AI-Based Single Image Dehazing System using Transformer-Based Deep Learning"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [
+    { name = "Senior CV & AI Research Team", email = "contact@dehazeai.org" }
+]
+keywords = ["computer-vision", "dehazing", "dehazeformer", "aodnet", "dark-channel-prior", "pytorch", "streamlit"]
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+addopts = "-ra -q"
+testpaths = ["tests"]
+
+[tool.black]
+line-length = 120
+target-version = ['py39', 'py310', 'py311']

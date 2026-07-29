@@ -1,0 +1,50 @@
+[
+    {
+        "model_name": "DehazeFormer",
+        "samples_evaluated": 2,
+        "avg_psnr": 3.9,
+        "avg_ssim": 0.0005,
+        "avg_mse": 26469.708289,
+        "avg_brightness": 0.91,
+        "avg_contrast": 11.44,
+        "avg_sharpness": 611.87,
+        "avg_entropy": 0.169,
+        "avg_visibility_score": 66.5,
+        "avg_haze_density_score": 0.0,
+        "avg_overall_quality_score": 34.0,
+        "avg_time_sec": 3.4876,
+        "avg_fps": 0.3
+    },
+    {
+        "model_name": "AOD-Net",
+        "samples_evaluated": 2,
+        "avg_psnr": 9.29,
+        "avg_ssim": 0.8864,
+        "avg_mse": 7680.639272,
+        "avg_brightness": 245.59,
+        "avg_contrast": 3.89,
+        "avg_sharpness": 1.76,
+        "avg_entropy": 3.353,
+        "avg_visibility_score": 2.6,
+        "avg_haze_density_score": 86.8,
+        "avg_overall_quality_score": 57.3,
+        "avg_time_sec": 0.0792,
+        "avg_fps": 12.6
+    },
+    {
+        "model_name": "Dark Channel Prior",
+        "samples_evaluated": 2,
+        "avg_psnr": 8.89,
+        "avg_ssim": 0.788,
+        "avg_mse": 8404.715342,
+        "avg_brightness": 102.23,
+        "avg_contrast": 44.45,
+        "avg_sharpness": 120.66,
+        "avg_entropy": 6.98,
+        "avg_visibility_score": 54.4,
+        "avg_haze_density_score": 19.4,
+        "avg_overall_quality_score": 63.5,
+        "avg_time_sec": 0.0657,
+        "avg_fps": 15.2
+    }
+]
